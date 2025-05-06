@@ -1,4 +1,4 @@
-# Rowjump_wpf_datagrid
+# Row jump common library for wpf data grid
 
 Usage: 
 ```
