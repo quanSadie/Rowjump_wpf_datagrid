@@ -2,7 +2,7 @@
 
 Usage: 
 ```
- <JumpButtons:DataGridToolbar x:Name="toolbar" ShowJumpButtons="True" />
+ <JumpButtons:DataGridToolbar x:Name="toolbar" />
 
  <DataGrid x:Name="UsersDataGrid" 
            Grid.Row="1"
@@ -12,7 +12,6 @@ Usage:
 
      <i:Interaction.Behaviors>
          <JumpButtons:DataGridNavigationBehavior Toolbar="{Binding ElementName=toolbar}"
-                                          JumpCount="5"
                                           EnableKeyboardNavigation="True" />
      </i:Interaction.Behaviors>
      <DataGrid.Columns>
